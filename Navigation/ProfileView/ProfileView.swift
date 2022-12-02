@@ -1,21 +1,21 @@
-//
-//  Profile.swift
-//  Navigation
-//
-//  Created by Вячеслав Студеникин on 02.12.22.
-//
-
 import UIKit
 
 class ProfileView: UIView {
-    @IBOutlet weak var image: UIImageView!{
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userAbout: UITextView!
+    @IBOutlet weak var userCity: UILabel!{
         didSet{
-            image.image = UIImage(named: "Billy")
+            userCity.text = "New York"
         }
     }
-
-    @IBOutlet weak var about: UITextView!
-    @IBOutlet weak var age: UILabel!
-    @IBOutlet weak var city: UILabel!
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var userImage: UIImageView!{
+        didSet{
+            userImage.image = UIImage(named: "billy")
+        }
+    }
+    @IBOutlet weak var userAge: UILabel!{
+        didSet{
+            userAge.text = "1969"
+        }
+    }
 }
