@@ -70,9 +70,9 @@
 		00810CF4293A17C1008BFAFC /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				0037589E293B793500B4D0ED /* PostViewController.swift */,
 				0037589D293B6DE400B4D0ED /* TabBar */,
 				00810CF7293A17C1008BFAFC /* SceneDelegate.swift */,
+				0037589E293B793500B4D0ED /* PostViewController.swift */,
 				00810CF9293A17C1008BFAFC /* ViewController.swift */,
 				00810CFE293A17C2008BFAFC /* Assets.xcassets */,
 				00810D00293A17C2008BFAFC /* LaunchScreen.storyboard */,
