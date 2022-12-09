@@ -12,14 +12,5 @@ class ProfileViewController: UIViewController {
             view.addSubview(nibView)
         }
     }
-    @IBOutlet weak var profileAge: UILabel!
-    @IBOutlet weak var profileAbout: UITextView!
-    @IBOutlet weak var profileCity: UILabel!
-    @IBOutlet weak var profileName: UILabel!{
-        didSet{
-            profileImage.image = UIImage(named:"billy")
-        }
-    }
-    @IBOutlet weak var profileImage: UIImageView!
     }
 
