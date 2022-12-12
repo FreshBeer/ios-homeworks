@@ -52,13 +52,6 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		0037588F293A748E00B4D0ED /* Tabbar module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Tabbar module";
-			sourceTree = "<group>";
-		};
 		00810CE9293A17C1008BFAFC = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +71,6 @@
 		00810CF4293A17C1008BFAFC /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				0037588F293A748E00B4D0ED /* Tabbar module */,
 				00810D90293A20B2008BFAFC /* ProfileView */,
 				0037588E293A743E00B4D0ED /* Application */,
 				00810D93293A21F9008BFAFC /* Profile.storyboard */,
