@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00336BFD294885FA00E003C2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00336BFC294885FA00E003C2 /* InfoViewController.swift */; };
 		00375896293B547300B4D0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00375895293B547300B4D0ED /* AppDelegate.swift */; };
 		0037589A293B6DB300B4D0ED /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00375899293B6DB300B4D0ED /* FeedViewController.swift */; };
 		0037589C293B6DC500B4D0ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0037589B293B6DC500B4D0ED /* ProfileViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00336BFC294885FA00E003C2 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		00375895293B547300B4D0ED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00375899293B6DB300B4D0ED /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0037589B293B6DC500B4D0ED /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		0037589D293B6DE400B4D0ED /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				00336BFC294885FA00E003C2 /* InfoViewController.swift */,
 				00375899293B6DB300B4D0ED /* FeedViewController.swift */,
 				0037589B293B6DC500B4D0ED /* ProfileViewController.swift */,
-				00375895293B547300B4D0ED /* AppDelegate.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -70,9 +72,10 @@
 		00810CF4293A17C1008BFAFC /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				0037589E293B793500B4D0ED /* PostViewController.swift */,
+				00375895293B547300B4D0ED /* AppDelegate.swift */,
 				0037589D293B6DE400B4D0ED /* TabBar */,
 				00810CF7293A17C1008BFAFC /* SceneDelegate.swift */,
-				0037589E293B793500B4D0ED /* PostViewController.swift */,
 				00810CF9293A17C1008BFAFC /* ViewController.swift */,
 				00810CFE293A17C2008BFAFC /* Assets.xcassets */,
 				00810D00293A17C2008BFAFC /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 				0037589F293B793500B4D0ED /* PostViewController.swift in Sources */,
 				00375896293B547300B4D0ED /* AppDelegate.swift in Sources */,
 				00810CFA293A17C1008BFAFC /* ViewController.swift in Sources */,
+				00336BFD294885FA00E003C2 /* InfoViewController.swift in Sources */,
 				0037589C293B6DC500B4D0ED /* ProfileViewController.swift in Sources */,
 				0037589A293B6DB300B4D0ED /* FeedViewController.swift in Sources */,
 				00810CF8293A17C1008BFAFC /* SceneDelegate.swift in Sources */,

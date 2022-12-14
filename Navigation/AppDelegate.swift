@@ -21,9 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-
-
-
 class TabBarController: UITabBarController {
     var profileController: UINavigationController!
     var feedController: UINavigationController!
@@ -31,6 +28,7 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
+    
         setupUI()
     }
 //Прописываю рутовые экраны контроллерам.
@@ -47,19 +45,13 @@ class TabBarController: UITabBarController {
                                        image: UIImage(systemName: "newspaper"), tag: 1)
         let itemProfile = UITabBarItem(title: "ПРОФИЛЬ",
                                        image: UIImage(systemName: "person.fill") , tag: 0)
-//        let itemPostView = UITabBarItem(title: "Показать выбранный пост",
-//                                        image: UIImage(systemName: "newspaper.circle"), tag: 2)
-
 
 //Ранее созданным контроллерам (новости и профиль) присваиваю свойство - tabBarItem и присваиваю айтемы которые я создал выше itemProfile и itemFeed
 
         profileController.tabBarItem = itemProfile
         feedController.tabBarItem = itemFeed
-
-
 //Прописываю цвета ячейкам
-//        UITabBar.appearance().tintColor = UIColor(red: 0/255, green: 146.255/0, blue: 248.255/0, alpha: 1.0)
-//Цвет бэкграунда - браун
+
         UITabBar.appearance().backgroundColor = .black
         UITabBar.appearance().barTintColor = .black
         UITabBar.appearance().tintColor = .orange
